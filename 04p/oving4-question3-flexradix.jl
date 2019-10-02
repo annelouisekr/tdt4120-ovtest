@@ -13,7 +13,15 @@ end
 
 ## Du skal implementere denne funksjonen 
 function flexradix(A, maxlength)
-    # TODO
+	sortert=Array{Int,1}(undef,length(A))
+    	for i in length(A)
+        	for j in length(A)
+			liste=countingsortletters(A[j])
+        	end
+        	A[i]=countingsortlength(liste)  
+	end
+	
+
 end
 
 
